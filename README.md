@@ -6,9 +6,9 @@ A wrapper for [express-open-in-editor](https://www.npmjs.com/package/express-ope
 
 ### Via npx (recommended, supported in npm since 5.2.0)
 
-To skip global installation and get updates automatically in future you can use beautiful npx command and directly run this tool from the gist:
+To skip global installation and get updates automatically in future you can use beautiful npx command and directly run the binary:
 
-> npx https://gist.github.com/bashmish/8d5d72a911305eadc394cf6d36202e86
+> npx open-in-editor-server
 
 ### Via normal npm installation
 

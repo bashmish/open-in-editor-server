@@ -7,14 +7,14 @@ var yargs = require('yargs');
 var argv = yargs
   .usage('Usage: open-in-editor-server -e [editor]')
   .example('open-in-editor-server -e code', 'Run server on default port and open files in VSCode')
-  .demand(['e'])
-  .string('e')
-  .alias('e', 'editor')
-  .describe('e', 'Editor to open file in (choose one of supported https://www.npmjs.com/package/open-in-editor)')
-  .number('p')
-  .default('p', 9246)
-  .alias('p', 'port')
-  .describe('p', 'Port to listen on')
+  .demand(['editor'])
+  .string('editor')
+  .alias('editor', 'e')
+  .describe('editor', 'Editor to open file in (choose one of supported https://www.npmjs.com/package/open-in-editor)')
+  .number('port')
+  .default('port', 9246)
+  .alias('port', 'p')
+  .describe('port', 'Port to listen on')
   .argv;
 
 var app = express();
