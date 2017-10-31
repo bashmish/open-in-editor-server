@@ -1,6 +1,6 @@
 {
   "name": "open-in-editor-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tool which runs a server to open files in a text editor.",
   "author": "Mikhail Bashkirov <bashmish@gmail.com>",
   "repository": "bashmish/open-in-editor-server",
