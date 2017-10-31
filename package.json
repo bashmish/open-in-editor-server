@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Tool which runs a server to open files in a text editor.",
   "author": "Mikhail Bashkirov <bashmish@gmail.com>",
-  "repository": "gist:8d5d72a911305eadc394cf6d36202e86",
+  "repository": "bashmish/open-in-editor-server",
   "dependencies": {
     "express": "^4.16.2",
     "express-open-in-editor": "^3.1.0",
