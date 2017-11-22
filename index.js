@@ -12,7 +12,7 @@ var argv = yargs
   .alias('editor', 'e')
   .describe('editor', 'Editor to open file in (choose one of supported https://www.npmjs.com/package/open-in-editor)')
   .number('port')
-  .default('port', 9246)
+  .default('port', 6437)
   .alias('port', 'p')
   .describe('port', 'Port to listen on')
   .argv;

@@ -35,10 +35,10 @@ Run in the directory of your project providing your text editor name as an argum
 ```
 > cd path/to/my-project
 > npx open-in-editor-server -e code
-Server is running on port 9246...
+Server is running on port 6437...
 ```
 
-You are now running a server on a default port 9246 with VSCode configured to open files. For the list of supported editors as well as any other possible options and their values you can use `--help`:
+You are now running a server on a default port 6437 with VSCode configured to open files. For the list of supported editors as well as any other possible options and their values you can use `--help`:
 
 ```
 > npx open-in-editor-server --help
@@ -48,7 +48,7 @@ You need to have VSCode binary preinstalled. Same for other text editors. Inform
 
 Try opening URL having `file` param with a relative path to a file inside the project directory.
 
-> http://127.0.0.1:9246/?file=/src/my-file.js
+> http://127.0.0.1:6437/?file=/src/my-file.js
 
 Behind the scenes the server will run a shell command passing path to the file to VSCode binary. Something like this:
 
